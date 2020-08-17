@@ -1,0 +1,289 @@
+
+
+/* Start:/local/components/ig/catalog.section.list/templates/tags/style.css?15952421542524*/
+.catalog-tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center; }
+  @media all and (min-width: 640px) {
+    .catalog-tags {
+      flex-wrap: nowrap; } }
+  .catalog-tags.all {
+    flex-wrap: wrap; }
+    .catalog-tags.all .catalog-tags__list {
+      flex-wrap: wrap;
+      overflow-x: visible; }
+    .catalog-tags.all .catalog-tags__button {
+      display: none; }
+    .catalog-tags.all .catalog-tags__all {
+      min-width: 100%;
+      text-align: left;
+      padding-left: 18px;
+      margin-top: 10px; }
+    .catalog-tags.all .catalog-tags__item {
+      margin-bottom: 4px; }
+  .catalog-tags__list {
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    flex-wrap: nowrap; }
+  .catalog-tags__item {
+    box-sizing: border-box;
+    height: 35px;
+    padding: 0 3px; }
+  .catalog-tags__link {
+    box-sizing: border-box;
+    display: block;
+    line-height: 31px;
+    white-space: nowrap;
+    word-break: keep-all;
+    padding: 0 15px;
+    border: 1px solid #c24545;
+    border-radius: 0.21429rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.2s, background-color 0.2s, box-shadow 0.2s, -webkit-box-shadow 0.2s; }
+    .catalog-tags__link:hover {
+      background: #f0b1ad;
+      border-color: #f0b1ad;
+      color: white;
+      transition: color 0.2s, background-color 0.2s, box-shadow 0.2s, -webkit-box-shadow 0.2s; }
+  .catalog-tags__button {
+    margin: 5px 0;
+    min-width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c24545;
+    position: relative;
+    z-index: 3;
+    cursor: pointer; }
+    .catalog-tags__button:before {
+      content: "";
+      display: block;
+      width: 50px;
+      position: absolute;
+      top: 0;
+      bottom: 0; }
+    .catalog-tags__button--right:before {
+      right: 100%;
+      background: linear-gradient(90deg, rgba(246, 246, 246, 0), #f6f6f6); }
+    .catalog-tags__button--left:before {
+      left: 100%;
+      background: linear-gradient(270deg, rgba(246, 246, 246, 0), #f6f6f6); }
+  .catalog-tags__all {
+    cursor: pointer;
+    color: #c24545;
+    min-width: 100%;
+    text-align: center;
+    margin-top: 10px; }
+    @media all and (min-width: 640px) {
+      .catalog-tags__all {
+        margin-top: 0;
+        min-width: auto;
+        padding-left: 15px; } }
+    .catalog-tags__all:hover {
+      text-decoration: underline;
+      color: rgba(194, 69, 69, 0.75); }
+
+/*# sourceMappingURL=style.css.map */
+
+/* End */
+
+
+/* Start:/local/templates/ig/css/vendor/slick.css?15941111221776*/
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+/* End */
+
+
+/* Start:/local/components/ig/catalog.section/templates/slider/style.css?15877229621668*/
+.product-slider {
+  box-sizing: border-box; }
+  .product-slider__items {
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    flex-wrap: nowrap; }
+  .product-slider__item {
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 100%;
+    display: block !important; }
+  .product-slider__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; }
+  .product-slider__img {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: calc(100% - 160px); }
+  .product-slider__button {
+    min-width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c24545;
+    position: relative;
+    z-index: 1030;
+    cursor: pointer; }
+  .product-slider__cart {
+    height: 160px; }
+  .product-slider__name {
+    height: 62px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: nowrap; }
+  .product-slider__price {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.55rem; }
+  .product-slider .icard__actions-btns.btns.icard-offer-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2px;
+    float: none; }
+    .product-slider .icard__actions-btns.btns.icard-offer-actions .btn {
+      padding: 0 2rem;
+      display: block;
+      width: 80%;
+      margin: 4px auto 0; }
+      .product-slider .icard__actions-btns.btns.icard-offer-actions .btn:first-child {
+        margin-top: 0; }
+
+/*# sourceMappingURL=style.css.map */
+
+/* End */
+/* /local/components/ig/catalog.section.list/templates/tags/style.css?15952421542524 */
+/* /local/templates/ig/css/vendor/slick.css?15941111221776 */
+/* /local/components/ig/catalog.section/templates/slider/style.css?15877229621668 */

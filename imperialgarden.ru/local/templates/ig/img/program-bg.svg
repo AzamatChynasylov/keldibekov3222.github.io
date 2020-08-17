@@ -1,0 +1,23 @@
+<svg width="232" height="77" viewBox="0 0 232 77" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="7" width="232" height="57">
+<rect y="7" width="232" height="57" rx="5" fill="#DE5F58"/>
+</mask>
+<g mask="url(#mask0)">
+<g opacity="0.6">
+<circle r="39.8336" transform="matrix(-0.93561 0.353035 0.353035 0.93561 87.3387 12.3314)" fill="url(#paint0_linear)" style="mix-blend-mode:color-dodge"/>
+</g>
+<g opacity="0.6">
+<circle r="39.8336" transform="matrix(-0.93561 0.353035 0.353035 0.93561 143.479 55.3314)" fill="url(#paint1_linear)" style="mix-blend-mode:color-dodge"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="39.8336" y1="0" x2="39.8336" y2="79.6672" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DE5F58"/>
+<stop offset="1" stop-color="#DE5F58" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="39.8336" y1="0" x2="39.8336" y2="79.6672" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DE5F58"/>
+<stop offset="1" stop-color="#DE5F58" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,13 @@
+
+
+/* Start:/local/components/ig/contacts/templates/.default/style.css?1590786317119*/
+.navi-link{
+    display:none;
+}
+@media screen and (max-width: 640px) {
+    .navi-link {
+        display: block;
+    }
+}
+/* End */
+/* /local/components/ig/contacts/templates/.default/style.css?1590786317119 */
