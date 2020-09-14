@@ -2158,6 +2158,81 @@
 
 
 													<section>
+														<div class="landing-wrap landing-form clearfix">
+															<h2>Предварительная оценка монет</h2>
+															<p>Чтобы узнать стоимость ваших монет, отправьте их фото с помощью формы
+																ниже или через Whatsapp <br> <span> <a class="banner-button phone"
+																		href="tel:+79687488226"
+																		onclick="yaCounter47050353.reachGoal('lead'); yaCounter47050353.reachGoal('lead-world-coins'); yaCounter47050353.reachGoal('tel'); return true;"><span
+																			itemprop="telephone">+7-968-748-82-26</span></a> <a
+																		class="banner-button whatsapp"
+																		href="https://api.whatsapp.com/send?phone=79687488226" );
+																		yaCounter47050353.reachGoal('whatsapp'); return
+																		true;">WhatsApp</a>
+																	<a style="text-decoration: none;
+																	color: #0a5692;;
+																	font-size: 15px;
+																	margin: 0 5px;" href="https://t.me/skupka_moskva"><img style="padding-right: 5px;" width="24px"
+																			height="24px" src="telegram.png" alt="">Telegram</a>
+																	<a class="banner-button email"
+																		href="mailto:skupka-monet-moskva@yandex.ru"
+																		onclick="yaCounter47050353.reachGoal('lead'); yaCounter47050353.reachGoal('lead-world-coins'); yaCounter47050353.reachGoal('monetanummi'); return true;"><span
+																			itemprop="email">skupka-monet-moskva@yandex.ru</span></a>
+																</span> </p>
+															<hr style="margin-bottom: 30px;">
+															<script
+																src="https://yastatic.net/q/forms-frontend-ext/_/embed.js"></script>
+															<iframe style="align-items: center;max-width: 650px;display: flex;
+															align-items: center;
+															justify-content: center;" src="https://forms.yandex.ru/u/5f5e1fafd548b5088f072f0d/?iframe=1"
+																frameborder="0" name="ya-form-5f5e1fafd548b5088f072f0d"
+																width="100%"></iframe>
+														</div>
+														<!-- dsad -->
+													</section>
+													<section>
+														<div class="landing-wrap landing-profits clearfix">
+															<h2>Действительно выгодно для вас</h2>
+															<div class="profits-left">
+																<div> <img src="https://static.nummi.ru/images/more-than-lombard.png"
+																		alt="Платим больше ломбарда" title="Платим больше ломбарда">
+																	<h3>Платим больше ломбарда</h3>
+																	<p>Выкупаем по&nbsp;рыночной стоимости, а&nbsp;не&nbsp;по&nbsp;цене
+																		лома цветных металлов. Согласитесь, редкая монета должна стоить
+																		дороже, чем сломанное золотое украшение.</p>
+																</div>
+																<div> <img src="https://static.nummi.ru/images/work-fast.png"
+																		alt="Высокая скорость работы" title="Работаем очень быстро">
+																	<h3>Работаем очень быстро</h3>
+																	<p>Быстро оценим&nbsp;&mdash; всего 2&ndash;5&nbsp;минут. Выплата
+																		всей суммы наличными в&nbsp;момент обращения.</p>
+																</div>
+															</div>
+															<div class="profits-right">
+																<div> <img src="https://static.nummi.ru/images/good-price.png"
+																		alt="Хорошие цены" title="Предлагаем справедливые цены">
+																	<h3>Справедливая оценка</h3>
+																	<p>Мы&nbsp;всегда ориентируемся на&nbsp;существующий спрос
+																		и&nbsp;предлагаем столько, сколько готовы заплатить коллекционеры
+																		за&nbsp;минусом комиссии 20%.</p>
+																</div>
+																<div> <img src="https://static.nummi.ru/images/bezopasnost.png"
+																		alt="Безопасность" title="Сделки строго конфиденциальны!">
+																	<h3>Безопасно</h3>
+																	<p>Возможна оплата на&nbsp;счёт в&nbsp;банке и&nbsp;наличными. Если
+																		нужно&nbsp;&mdash; вызовем такси за&nbsp;наш счёт, чтобы
+																		вы&nbsp;безопасно добрались до&nbsp;дома с&nbsp;крупной суммой
+																		наличных.</p>
+																</div>
+															</div>
+														</div>
+													</section>
+
+
+
+
+
+													<section>
 														<div class="landing-wrap clearfix">
 															<h2>Как до&nbsp;нас добраться</h2>
 															<div class="clearfix"
@@ -2175,7 +2250,7 @@
 																		<li>Пройти к Белорусскому вокзалу</li>
 																		<li> Повернуть направо на светофоре</li>
 																		<li>Подняться на мост</li>
-																		<li> Пройти по мосту 50 м (против движения транспорта)</li>
+																		<li> Пройти по мосту 30 м (против движения транспорта)</li>
 																		<li> Спуститься по лестнице, которая будет с левой стороны.</li>
 																		<li> Пройти вдоль здания до угла и повернуть налево</li>
 																		<li>Пройти по прямой до маленького пешеходного перехода, перейти
@@ -2240,7 +2315,7 @@
 			function updateWhatsAppLinks(region) {
 				var phoneForMoscow = $('#alt_phone_for_moscow').val(); var phoneForRegion = $('#alt_phone_for_region').val(); var storageRegion = localStorage.getItem('region'); if (storageRegion !== region) { localStorage.setItem('region', region); }
 				var clientId = readCookie('_ym_uid'); var href = 'https://api.whatsapp.com/send?phone=' +
-					(region === 'Москва и Московская область' ? phoneForMoscow : phoneForRegion) + '&text=Здравствуйте, номер моей заявки [' +
+					(region === 'Москва и Московская область' ? phoneForMoscow : phoneForRegion) + +
 					clientId + ']'; $('.whatsapp').each(function () { $(this).attr('href', href); });
 			}
 			function readCookie(name) {
