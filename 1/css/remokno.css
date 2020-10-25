@@ -1,8 +1,11 @@
 @import url('../css.css');
 
 .navphone {
-    padding: 10px 15px;
-    background: #fff;
+	 padding: 10px 15px;
+	 display: none;
+	 background: transparent ;
+	 font-size: 18px;
+	 font-weight: 600;
 }
 .uk-button-primary:focus, .uk-button-primary:hover {
 	background-color: #fff;
@@ -10,6 +13,10 @@
 }
 .head-top {
 	margin-left:220px;
+}
+.ffs {
+	color: #333!important;
+	
 }
 .logo img {
 	width: 200px;
@@ -95,7 +102,7 @@ html {
 }
 .text2 {
 	color: #fff;
-	font-size: 22px;
+	font-size: 20px;
 }
 .text {
 	font-size: 16px;
