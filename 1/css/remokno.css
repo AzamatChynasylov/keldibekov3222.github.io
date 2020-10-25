@@ -214,6 +214,7 @@ background:#EBEBE7 ;
 }
 .uk-offcanvas-bar .uk-nav-default > li > a {
 	color: #333;
+	font-weight: 500;
 }
 
 /* Phone landscape and bigger */
