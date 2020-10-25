@@ -1,0 +1,224 @@
+@import url('../css.css');
+
+.navphone {
+    padding: 10px 15px;
+    background: #fff;
+}
+.uk-button-primary:focus, .uk-button-primary:hover {
+	background-color: #152333;
+}
+.head-top {
+	margin-left:220px;
+}
+.logo img {
+	width: 200px;
+	display: block;
+	margin: 0 40px;
+}
+
+.carq {
+	background: #fff;
+}
+.uk-card-default {
+	border-radius: 30px;
+}
+
+.footer {
+	position: fixed;
+	background: #264559;
+	display: block;
+	width: 100%;
+	bottom: 0;
+	right: 0;
+	padding: 15px 0;
+}
+
+.offer {
+	padding: 15px 0;
+	margin: -15px 0px -15px 0 !important;
+	background: #e5e642;
+	display: block;
+	color: #264559;
+}
+
+.uk-navbar-nav > li > a {
+	color: #264559;
+	padding: 0 30px;
+	font-weight: bold;
+}
+
+.uk-button-primary {
+	background-color: #333333;
+	color: #fff;
+	border: 1px solid transparent;
+	border-radius: 30px;
+	font-weight: bold;
+}
+
+.uk-button-default {
+	color: #2c2b3b;
+	border: 1px solid transparent;
+	border-radius: 30px;
+	font-weight: bold;
+	background: #fff;
+}
+
+
+html {
+	font-family: -apple-system,BlinkMacSystemFont,FiraSans,"Helvetica Neue","Segoe UI",Roboto,Arial,sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	-webkit-text-size-adjust: 100%;
+	background: #f5f5f7;
+	color: #1f2e38;
+}
+
+.uk-icon-button {
+	background: #f8f8f8;
+	color: #264559;
+}
+
+.uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, h1, h2, h3, h4, h5, h6 {
+	font-family: -apple-system,BlinkMacSystemFont,"Oswald",Roboto,"Helvetica Neue",Arial,sans-serif;
+	font-weight: 400;
+	color: #2c2b3b;
+	text-transform: none;
+}
+.title-h1 {
+	color: #333!important;
+}
+.text {
+	color: #000;
+}
+
+.card {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 100%); 
+	color: #1f2e38;
+	box-shadow: none;
+}
+
+.uk-badge {
+	background: #58656e;
+	color: #fff;
+}
+
+.uk-alert-warning {
+	background: #ffffb9;
+	color: #58656e;
+}
+
+.services {
+	background-color: #f5f5f5;
+}
+
+.uk-card-secondary {
+	background: #414051;
+	color: #fff;
+	box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+.uk-card-default .uk-card-title {
+	color: #264559;
+}
+
+.uk-card-default {
+	color: #1f2e38;
+}
+
+.nav {
+	background: #f5f5f7;
+}
+
+.price {
+	background-color: #f5f5f7;
+}
+
+.uk-text-primary {
+	color: #333333 !important;
+}
+
+.uk-text-success {
+	color: #333333 !important;
+	font-weight: bold;
+}
+
+.uk-card-secondary.uk-card-body .uk-text-primary, .uk-card-secondary > :not([class*="uk-card-media"]) .uk-text-primary, .uk-light .uk-text-primary  {
+    color: #333333 !important;
+}
+
+.contact {
+	background: #fff;
+	padding: 35px 0px 95px 0;
+}
+
+.garant {
+	background: rgb(245,245,247);
+    background: linear-gradient(190deg, rgba(245,245,247,1) 0%, rgba(222,222,232,1) 100%); 
+}
+
+.offers {
+background: rgb(43,42,57);
+background: linear-gradient(164deg, rgba(43,42,57,1) 35%, rgba(38,69,89,1) 100%);
+}
+
+.uk-alert-primary {
+	background: #dae1e9;
+	color: #202830;
+	padding: 10px 10px 1px 10px;
+}
+
+.uk-navbar-nav > li.uk-active > a {
+	color: #2c2b3b;
+	border-top: 3px solid transparent;
+	border-bottom: 3px solid #333333;
+}
+
+.moblogo {
+	width: 200px;
+}
+
+.canva {
+	color: #333333;
+}
+
+.fixed-contact {
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+}
+
+.fixed-contact a {
+	width: 35px;
+	display: block;
+	padding: 10px;
+	background: #fff;
+	margin: 15px 0 0 0px;
+	border-radius: 55px;
+}
+
+.uk-nav-default {
+	font-size: 17px;
+}
+
+.uk-offcanvas-bar {
+	background: #2c2b3b;
+}
+
+/* Phone landscape and bigger */
+@media (max-width: 640px) {
+
+.uk-h1, h1 {
+	font-size: 25px;
+	line-height: 1.2;
+}
+
+.uk-card-body {
+	padding: 15px 15px;
+}
+
+.footer-logo {
+	width: 250px;
+}
+
+}
