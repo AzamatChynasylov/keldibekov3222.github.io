@@ -90,11 +90,11 @@ html {
 }
 .title-h2 {
 	font-weight: 700;
-	color: #333;
+	color: #fff;
 	text-transform: uppercase;
 }
 .text {
-	color: #000;
+	color: #fff;
 	font-size: 16px;
 }
 
