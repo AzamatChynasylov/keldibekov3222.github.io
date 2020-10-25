@@ -209,7 +209,11 @@ background:#EBEBE7 ;
 }
 
 .uk-offcanvas-bar {
-	background: #2c2b3b;
+	background: #EBEBE7;
+	color:#333;
+}
+.uk-offcanvas-bar .uk-nav-default > li > a {
+	color: #333;
 }
 
 /* Phone landscape and bigger */
