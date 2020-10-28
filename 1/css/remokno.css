@@ -12,16 +12,35 @@
 	color: #333;
 }
 .head-top {
-	margin-left:220px;
+	margin-left:40px;
 }
 .ffs {
 	color: #333!important;
-	
+}
+.ffs:hover {
+	text-decoration: none!important;
+}
+.uk-navbar-nav > li > a {
+	min-height: 90px!important;
 }
 .logo img {
-	width: 200px;
-	display: block;
-	margin: 0 40px;
+	width: 80px;
+}
+.logo-item{
+	margin-right: 100px;
+}
+.logo:hover{
+	text-decoration: none !important;
+	
+}
+.logo-txt {
+	margin-top: 6%;
+	line-height: 26px;
+	text-decoration: none;
+	color: #9BA8A8 ;
+	font-weight: 790;
+	font-size: 25px;
+	text-transform: uppercase;
 }
 
 .carq {
@@ -39,6 +58,13 @@
 	bottom: 0;
 	right: 0;
 	padding: 15px 0;
+}
+
+.footer-logo {
+	width: 80px;
+}
+.footer-logo:hover {
+	text-decoration: none;
 }
 
 .offer {
@@ -168,7 +194,7 @@ html {
 
 .contact {
 	background: #fff;
-	padding: 35px 0px 95px 0;
+	padding: 35px 0px 30px 0;
 }
 
 .garant {
@@ -192,9 +218,7 @@ background:#EBEBE7 ;
 	border-bottom: 3px solid #333;
 }
 
-.moblogo {
-	width: 200px;
-}
+
 
 .canva {
 	color: #333333;
@@ -240,8 +264,16 @@ background:#EBEBE7 ;
 	padding: 15px 15px;
 }
 
-.footer-logo {
-	width: 250px;
-}
 
+
+}
+@media (max-width: 940px) {
+	
+	.moblogo {
+		width: 100px;
+	}
+	.logo-txt {
+		font-size: 30px;
+		margin-bottom: 11% ;
+	}
 }
