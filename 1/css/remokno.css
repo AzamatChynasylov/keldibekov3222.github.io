@@ -23,6 +23,10 @@
 .uk-navbar-nav > li > a {
 	min-height: 90px!important;
 }
+.main-section {
+	background-image: url(..//img/bgbg2.jpg);
+	 background-size: 100%
+}
 .logo img {
 	width: 80px;
 }
@@ -271,6 +275,10 @@ background:#EBEBE7 ;
 	
 	.moblogo {
 		width: 100px;
+	}
+	.main-section {
+		background-image: url(..//img/bg2.jpg);
+		background-size: auto;
 	}
 	.logo-txt {
 		font-size: 30px;
