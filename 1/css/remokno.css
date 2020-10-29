@@ -28,7 +28,7 @@
 	 background-size: 100%
 }
 .logo img {
-	width: 80px;
+	width: 180px;
 }
 .logo-item{
 	margin-right: 100px;
@@ -65,7 +65,7 @@
 }
 
 .footer-logo {
-	width: 80px;
+	width: 180px;
 }
 .footer-logo:hover {
 	text-decoration: none;
@@ -274,7 +274,8 @@ background:#EBEBE7 ;
 @media (max-width: 940px) {
 	
 	.moblogo {
-		width: 100px;
+		width: 180px;
+		margin: 10px 0;
 	}
 	.main-section {
 		background-image: url(..//img/bg2.jpg);
